@@ -1,7 +1,6 @@
 ---
 tags:
 date:
-  "{ date }":
 ---
 ## Problem:
 ___

@@ -1,7 +1,7 @@
 ---
 tags:
-date:
-  "{ date }":
+  - python
+date: 2026-09-28
 ---
 ## Problem
 ___
