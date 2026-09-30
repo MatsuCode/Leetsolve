@@ -1,5 +1,3 @@
-## How To Solve? 🤔
-## Complexity (Big-O) 📈
 hi,
 I am Bruno.
 
