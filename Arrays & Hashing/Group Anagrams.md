@@ -54,7 +54,7 @@ Anagrams[0] has 1t, 1e and 1a, the same as "eat", but in other order. This can b
 So this was my approach:
 1. Made a dict to store all the arrays;
 2. For each word in the list i made a list of 26 zeros, so we can track how many times each letter appears in the word;
-3. And for each character in that string, i add +1 in the index that represents the order of that letter on the list;
+3. And for each character in that string, i add +1  in the index that represents the order of that letter on the list;
 
 ```python
 ord("a") # 97
@@ -76,14 +76,14 @@ ___
 > 
 > ```python
 >class Solution:
->    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
->        groups = {} # Store the groups
+>    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+>        res = defaultdict(list)
 >
->        for s in strs:
->            count = [0] * 26
->            for ch in s:
->                count[ord(ch) - ord("a")] += 1
->            groups[tuple(count)].append(s)
+>        for s in strs:
+>            count = [0] * 26
+>            for c in s:
+>                count[ord(c) - ord("a")] += 1
+>            res[tuple(count)].append(s)
 >
->        return list(groups.values())
+>        return list(res.values())
 > ```
