@@ -1,6 +1,6 @@
 ---
 tags:
-  - python
+  - ArraysAndHashing
 date: 2026-09-28
 ---
 ## Problem

@@ -1,9 +1,9 @@
 ---
 tags:
-  - python
+  - ArraysAndHashing
 date: 2026-09-28
 ---
-## Problem:
+## Problem
 ___
 Given an integer array `nums`, return `true` if any value appears **more than once** in the array, otherwise return `false`.
 
